@@ -1,0 +1,25 @@
+{
+  "name": "protected-app",
+  "version": "1.0.0",
+  "description": "This npm package provides middleware for protecting routes in a backend application using JSON Web Tokens (JWT). It verifies the presence and validity of a JWT token from the client's cookies, retrieves the user ID, and fetches user details from a specified user model. If successful, it attaches the user object to the request (req.user) for subsequent route handling. Handles various error scenarios like missing or invalid tokens, unauthorized access, and internal server errors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepanshurajput0/protected-app.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Deepanshu Verma",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/deepanshurajput0/protected-app/issues"
+  },
+  "homepage": "https://github.com/deepanshurajput0/protected-app#readme",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
+}
